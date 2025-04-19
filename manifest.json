@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Video Controller",
+  "version": "1.0",
+  "description": "An extension to pause and resume YouTube videos via voice commands.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://www.youtube.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "favicon-16x16.png",
+      "32": "favicon-32x32.png"
+    }
+  }
+}
